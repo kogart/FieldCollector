@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     var button = UIButton.buttonWithType(UIButtonType.System) as UIButton
     var buttonMail = UIButton.buttonWithType(UIButtonType.System) as UIButton
     var buttonDel = UIButton.buttonWithType(UIButtonType.System) as UIButton
+    var buttonClean = UIButton.buttonWithType(UIButtonType.System) as UIButton
     var txtField: UITextField = UITextField()
     var text: String = ""
     var text2: String = ""
@@ -28,8 +29,8 @@ class ViewController: UIViewController {
         txtField.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.7)
         txtField.textAlignment = .Center
         txtField.keyboardType = UIKeyboardType.EmailAddress
-        txtField.font = txtField.font.fontWithSize(40)
         txtField.autocapitalizationType = UITextAutocapitalizationType.None
+        txtField.font = txtField.font.fontWithSize(40)
         self.view.addSubview(txtField)
         
         
@@ -38,6 +39,11 @@ class ViewController: UIViewController {
         button.addTarget(self, action: "buttonPressed:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)
         
+        
+        buttonClean.frame = CGRectMake(65, 900, 136, 103)
+        buttonClean.backgroundColor = UIColor(patternImage: UIImage(named: "button_clean.png")!)
+        buttonClean.addTarget(self, action: "cleanFields:", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(buttonClean)
         
         buttonMail.frame = CGRectMake(400, 900, 136, 103)
         buttonMail.backgroundColor = UIColor(patternImage: UIImage(named: "button_mail.png")!)
@@ -109,6 +115,10 @@ class ViewController: UIViewController {
             text2 = ""
             txtField.text = "Adresser borttagna."
         }
+    }
+    
+    func cleanFields(sender:UIButton!) {
+        txtField.text = ""
     }
     
     

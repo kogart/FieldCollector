@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>26C0BBB6-5221-4830-9F16-BF3FF3D93124</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FieldCollector</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F7A163FC1D102D1A1970B49E99D1B1A69BDA9FE3</key>
+		<string>https://github.com/kogart/FieldCollector.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FieldCollector.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F7A163FC1D102D1A1970B49E99D1B1A69BDA9FE3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kogart/FieldCollector.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F7A163FC1D102D1A1970B49E99D1B1A69BDA9FE3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F7A163FC1D102D1A1970B49E99D1B1A69BDA9FE3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FieldCollector</string>
+		</dict>
+	</array>
+</dict>
+</plist>
